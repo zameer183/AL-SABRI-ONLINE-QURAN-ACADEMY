@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <path fill="#012169" d="M0 0h800v400H0z"/>
+  <path fill="#fff" d="M0 0v178.9h357.8V0H0zm44.7 0 134.2 67.1L313.1 0h44.7L223.6 89.4l134.2 67.1v22.4L201.2 100.6 44.7 178.9H0v-22.4l134.2-67.1L0 22.4V0z"/>
+  <path fill="#C8102E" d="M0 0v40.1L98.2 89.4 0 138.7v40.2l178.9-89.5 178.9 89.5v-40.2L259.6 89.4l98.2-49.3V0L178.9 89.4z"/>
+  <path fill="#fff" d="M156.6 0h44.7v178.9h-44.7zM0 67.1h357.8v44.7H0z"/>
+  <path fill="#C8102E" d="M165.5 0h26.8v178.9h-26.8zM0 76h357.8v26.8H0z"/>
+  <g fill="#C8102E" stroke="#fff" stroke-width="8"><circle cx="590" cy="90" r="20"/><circle cx="690" cy="150" r="20"/><circle cx="640" cy="250" r="20"/><circle cx="735" cy="235" r="20"/></g>
+</svg>

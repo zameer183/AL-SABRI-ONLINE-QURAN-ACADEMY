@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#f7faf8"/>
+  <rect x="120" y="110" width="560" height="300" rx="30" fill="#ffffff"/>
+  <path d="M210 170c42 0 86 8 130 26v138c-44-18-88-26-130-26-24 0-48 3-72 9V179c24-6 48-9 72-9Zm380 0c-42 0-86 8-130 26v138c44-18 88-26 130-26 24 0 48 3 72 9V179c-24-6-48-9-72-9Z" fill="#e3f1e8" stroke="#0d6c34" stroke-width="8"/>
+  <text x="400" y="455" font-size="40" text-anchor="middle" fill="#0d6c34" font-family="Arial, sans-serif" font-weight="700">Quran Reading</text>
+</svg>

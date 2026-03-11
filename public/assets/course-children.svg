@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#eaf6ee"/>
+  <circle cx="250" cy="220" r="60" fill="#0d6c34"/>
+  <circle cx="400" cy="180" r="60" fill="#138147"/>
+  <circle cx="550" cy="220" r="60" fill="#57a06f"/>
+  <rect x="170" y="280" width="460" height="90" rx="24" fill="#fff"/>
+  <text x="400" y="332" font-size="38" text-anchor="middle" fill="#0d6c34" font-family="Arial, sans-serif" font-weight="700">Children's Quran Classes</text>
+</svg>

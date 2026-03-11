@@ -1,0 +1,550 @@
+{
+  "courses": [
+    {
+      "type": "course",
+      "slug": "noorani-qaida-online-for-beginners",
+      "title": "Noorani Qaida",
+      "subtitle": "A structured starting point for children and adults who want to build confident Quran reading skills from the basics.",
+      "excerpt": "Learn the fundamentals of Quran reading with proper pronunciation and letter recognition.",
+      "image": "/assets/course-noorani-qaida.svg",
+      "introTitle": "Start Quran Reading with the Right Foundation",
+      "intro": [
+        "Noorani Qaida is the first step for beginners who want to learn Quran recitation correctly. It focuses on Arabic letters, pronunciation, and joining rules in a simple progression.",
+        "With one-to-one online guidance, students build fluency gradually and avoid mistakes early, making later Quran reading much easier and more accurate."
+      ],
+      "pointsTitle": "What This Course Covers",
+      "points": [
+        {
+          "title": "Arabic Letters and Sounds",
+          "text": "Students learn each letter carefully with clear makharij and correct pronunciation from the start."
+        },
+        {
+          "title": "Joining and Reading Practice",
+          "text": "Lessons move from individual letters to joined forms so learners can begin reading words confidently."
+        },
+        {
+          "title": "Basic Tajweed Awareness",
+          "text": "Early recitation habits are improved with simple rules that prepare students for Quran reading."
+        },
+        {
+          "title": "Beginner-Friendly Pace",
+          "text": "Classes are kept easy to follow for children, adults, and re-starters who need patient guidance."
+        }
+      ],
+      "ctaTitle": "Begin Noorani Qaida with Personal Guidance",
+      "ctaText": "Enroll in one-to-one online lessons and build a strong Quran reading foundation."
+    },
+    {
+      "type": "course",
+      "slug": "online-quran-tafseer-course",
+      "title": "Tafsir e Quran",
+      "subtitle": "Understand the meanings, lessons, and guidance of the Quran through structured tafseer sessions with qualified tutors.",
+      "excerpt": "Understand the deeper meaning of Quranic verses with structured guidance from qualified tutors.",
+      "image": "/assets/course-tafsir.svg",
+      "introTitle": "Learn the Quran Beyond Recitation",
+      "intro": [
+        "Tafseer helps students understand the message of the Quran more deeply, including context, themes, and practical guidance for daily life.",
+        "This course is designed for learners who want both spiritual understanding and a clearer relationship with Quranic teachings."
+      ],
+      "pointsTitle": "What You Study in Tafseer",
+      "points": [
+        {
+          "title": "Meaning of Verses",
+          "text": "Students learn the message of selected surahs and ayat in a clear and accessible way."
+        },
+        {
+          "title": "Context and Background",
+          "text": "Lessons explain when and why verses were revealed so their guidance is easier to understand."
+        },
+        {
+          "title": "Practical Lessons",
+          "text": "Tafseer sessions connect Quranic guidance to daily life, character, and decision-making."
+        },
+        {
+          "title": "Structured Teacher Support",
+          "text": "Qualified tutors simplify complex concepts and keep the learning process organized."
+        }
+      ],
+      "ctaTitle": "Understand the Quran with Clarity",
+      "ctaText": "Start guided tafseer sessions and deepen your connection with Quranic meaning."
+    },
+    {
+      "type": "course",
+      "slug": "qirat-course",
+      "title": "Quran Qirat",
+      "subtitle": "Improve your recitation style, tone, and delivery with guided qirat practice in a structured one-to-one format.",
+      "excerpt": "Improve your recitation style with rhythm, voice control, and authentic Qirat techniques.",
+      "image": "/assets/course-qirat.svg",
+      "introTitle": "Develop Beautiful and Controlled Recitation",
+      "intro": [
+        "The Quran Qirat course helps students improve rhythm, tone, and confidence while maintaining proper recitation standards.",
+        "It is suitable for learners who already read the Quran and now want to strengthen their voice, flow, and presentation."
+      ],
+      "pointsTitle": "What You Improve in Qirat",
+      "points": [
+        {
+          "title": "Voice Control",
+          "text": "Students work on balanced recitation style with better control over tone and expression."
+        },
+        {
+          "title": "Fluency and Rhythm",
+          "text": "Reading becomes smoother with guided correction on pauses, pace, and connected delivery."
+        },
+        {
+          "title": "Listening and Repetition",
+          "text": "Regular listening practice helps learners improve recitation through imitation and correction."
+        },
+        {
+          "title": "Personalized Feedback",
+          "text": "Teachers adjust lessons to each student's current level and recitation goals."
+        }
+      ],
+      "ctaTitle": "Strengthen Your Quran Recitation",
+      "ctaText": "Enroll in guided Qirat classes and improve recitation with expert support."
+    },
+    {
+      "type": "course",
+      "slug": "learn-quran-with-tajweed-online",
+      "title": "Tajweed Course",
+      "subtitle": "Master the rules of proper Quran recitation with one-to-one online Tajweed classes for children and adults.",
+      "excerpt": "Master Tajweed rules and recite the Quran accurately with fluency and confidence.",
+      "image": "/assets/course-tajweed.svg",
+      "introTitle": "Recite the Quran with Accuracy and Confidence",
+      "intro": [
+        "Tajweed is essential for correct recitation. This course focuses on pronunciation, articulation points, and recitation rules that improve fluency and accuracy.",
+        "The course is suitable for students who want to correct common mistakes and build a stronger recitation standard with teacher supervision."
+      ],
+      "pointsTitle": "What the Tajweed Course Includes",
+      "points": [
+        {
+          "title": "Makharij and Sifaat",
+          "text": "Students learn how each letter should sound and where it should be pronounced from."
+        },
+        {
+          "title": "Rule-Based Recitation",
+          "text": "Key Tajweed rules are introduced step by step in an easy and practical lesson format."
+        },
+        {
+          "title": "Error Correction",
+          "text": "Teachers identify mistakes in recitation and help students correct them consistently."
+        },
+        {
+          "title": "Confidence Through Practice",
+          "text": "Regular reading and guided revision help students apply Tajweed naturally over time."
+        }
+      ],
+      "ctaTitle": "Learn Tajweed with Expert Guidance",
+      "ctaText": "Start online Tajweed classes and build stronger, more accurate Quran recitation."
+    },
+    {
+      "type": "course",
+      "slug": "online-quran-memorization-program",
+      "title": "Quran Memorization",
+      "subtitle": "A structured Hifz pathway with revision, tracking, and teacher guidance for steady memorization progress.",
+      "excerpt": "Memorize Quran through a practical Hifz roadmap with regular revision and progress tracking.",
+      "image": "/assets/course-hifz.svg",
+      "introTitle": "Memorize the Quran with a Practical Hifz Plan",
+      "intro": [
+        "The online Quran memorization program is designed for students who want a disciplined and realistic Hifz routine with regular revision.",
+        "Lessons focus on memorization targets, retention, and teacher follow-up so students build progress in a stable and manageable way."
+      ],
+      "pointsTitle": "What the Hifz Program Focuses On",
+      "points": [
+        {
+          "title": "Daily Memorization Targets",
+          "text": "Students receive manageable portions that fit their age, level, and memorization strength."
+        },
+        {
+          "title": "Revision and Retention",
+          "text": "Strong review habits are built so previously memorized portions remain secure over time."
+        },
+        {
+          "title": "Teacher Monitoring",
+          "text": "Progress is checked regularly to keep students consistent and accountable."
+        },
+        {
+          "title": "Long-Term Structure",
+          "text": "The program supports memorization with realistic planning instead of rushed targets."
+        }
+      ],
+      "ctaTitle": "Begin Your Hifz Journey Online",
+      "ctaText": "Enroll in structured Quran memorization classes with revision-focused guidance."
+    },
+    {
+      "type": "course",
+      "slug": "learn-quran-reading-online",
+      "title": "Quran Reading",
+      "subtitle": "Online Quran reading lessons for beginners and intermediate students who want fluency, accuracy, and confidence.",
+      "excerpt": "Start Quran reading from basic to advanced levels with one-on-one interactive sessions.",
+      "image": "/assets/course-reading.svg",
+      "introTitle": "Build Strong Quran Reading Habits",
+      "intro": [
+        "Quran reading classes are designed for students who want to move from basic reading to smoother recitation with regular practice.",
+        "The lessons combine guided reading, pronunciation support, and gradual progress so students improve without feeling overwhelmed."
+      ],
+      "pointsTitle": "What Students Gain from Quran Reading Classes",
+      "points": [
+        {
+          "title": "Reading Fluency",
+          "text": "Students improve pace, accuracy, and confidence through consistent teacher-led recitation practice."
+        },
+        {
+          "title": "Pronunciation Support",
+          "text": "Teachers correct weak points in articulation so learners read more clearly and correctly."
+        },
+        {
+          "title": "Structured Progress",
+          "text": "Lessons follow a steady pattern that helps both children and adults stay on track."
+        },
+        {
+          "title": "One-to-One Attention",
+          "text": "Students receive focused support based on their level, pace, and recitation goals."
+        }
+      ],
+      "ctaTitle": "Start Reading the Quran with Confidence",
+      "ctaText": "Enroll in online Quran reading classes and improve step by step with qualified tutors."
+    },
+    {
+      "type": "course",
+      "slug": "female-quran-teacher",
+      "title": "Female Quran Teacher",
+      "subtitle": "Comfortable and supportive Quran learning with experienced female tutors for sisters and children.",
+      "excerpt": "Dedicated female tutors for sisters and children in a comfortable and supportive learning setting.",
+      "image": "/assets/course-female-teacher.svg",
+      "introTitle": "Learn with Dedicated Female Quran Teachers",
+      "intro": [
+        "This option is ideal for sisters and families who prefer female Quran tutors for recitation, Tajweed, Noorani Qaida, and children's learning support.",
+        "Classes are delivered in a structured, respectful, and comfortable environment that supports regular progress and clear communication."
+      ],
+      "pointsTitle": "Why Students Choose Female Quran Teachers",
+      "points": [
+        {
+          "title": "Comfortable Learning Environment",
+          "text": "Female students and children can learn with confidence in a setting that feels more suitable for them."
+        },
+        {
+          "title": "Flexible Course Options",
+          "text": "Tutors can teach Noorani Qaida, Quran reading, Tajweed, memorization, and Islamic basics."
+        },
+        {
+          "title": "Patient and Supportive Guidance",
+          "text": "Lessons are paced according to the student's confidence, age, and learning needs."
+        },
+        {
+          "title": "Consistent Progress for Families",
+          "text": "Parents can arrange reliable one-to-one schedules for daughters and younger learners."
+        }
+      ],
+      "ctaTitle": "Book Classes with a Female Quran Tutor",
+      "ctaText": "Contact us to arrange one-to-one online lessons with experienced female teachers."
+    },
+    {
+      "type": "course",
+      "slug": "childrens-section-course",
+      "title": "Children's Quran Classes",
+      "subtitle": "Engaging online Quran classes designed for children with simple instruction and age-appropriate support.",
+      "excerpt": "Engaging classes for kids with age-appropriate methods that make Quran learning easy and enjoyable.",
+      "image": "/assets/course-children.svg",
+      "introTitle": "Make Quran Learning Easy for Children",
+      "intro": [
+        "Children's Quran classes use patient teaching, guided repetition, and easy lesson structure to keep young learners engaged.",
+        "The focus is on comfort, consistency, and making Quran learning a positive part of the child's routine."
+      ],
+      "pointsTitle": "What Makes the Children's Course Effective",
+      "points": [
+        {
+          "title": "Age-Appropriate Teaching",
+          "text": "Lessons are shaped around children's pace, attention span, and confidence level."
+        },
+        {
+          "title": "Interactive Learning Style",
+          "text": "Tutors keep lessons engaging so children stay connected and interested."
+        },
+        {
+          "title": "Strong Basics First",
+          "text": "The course helps children build correct pronunciation, reading habits, and Islamic understanding."
+        },
+        {
+          "title": "Support for Parents",
+          "text": "Families get a clearer pathway for regular online Quran progress."
+        }
+      ],
+      "ctaTitle": "Start Quran Classes for Your Child",
+      "ctaText": "Enroll in guided children's Quran classes with a gentle and structured learning approach."
+    },
+    {
+      "type": "course",
+      "slug": "one-to-one-quran-classes",
+      "title": "One-to-One Classes",
+      "subtitle": "Personalized Quran classes built around your schedule, level, and learning goals.",
+      "excerpt": "Flexible personalized Quran learning plans for students in USA, UK, Canada, and worldwide.",
+      "image": "/assets/course-one-to-one.svg",
+      "introTitle": "Personal Learning with Full Teacher Attention",
+      "intro": [
+        "One-to-one classes are ideal for students who want direct teacher attention, flexible timings, and a pace matched to their own needs.",
+        "These sessions work well for children, adults, beginners, and advanced learners who need personalized progress plans."
+      ],
+      "pointsTitle": "Benefits of One-to-One Quran Classes",
+      "points": [
+        {
+          "title": "Flexible Scheduling",
+          "text": "Classes can be arranged around school, work, and family timing."
+        },
+        {
+          "title": "Level-Based Lessons",
+          "text": "The teacher adjusts reading, Tajweed, or memorization work according to the student's current stage."
+        },
+        {
+          "title": "Focused Correction",
+          "text": "Students receive immediate feedback and stronger correction during every class."
+        },
+        {
+          "title": "Steady Individual Progress",
+          "text": "Personalized planning makes it easier to maintain consistency and measurable improvement."
+        }
+      ],
+      "ctaTitle": "Book Your Personal Quran Class",
+      "ctaText": "Contact us to schedule one-to-one Quran lessons that fit your routine."
+    },
+    {
+      "type": "course",
+      "slug": "all-kalmas-memorization",
+      "title": "All Kalma's Memorization",
+      "subtitle": "A simple and guided memorization course to help children and beginners learn the six Kalmas with correct pronunciation and understanding.",
+      "excerpt": "Memorize all Kalmas with proper pronunciation, repetition, and easy lesson structure.",
+      "image": "/assets/course-children.svg",
+      "introTitle": "Memorize the Kalmas with Confidence",
+      "intro": [
+        "This course helps students memorize all Kalmas in a simple and structured way with regular repetition and teacher guidance.",
+        "It is suitable for children and beginners who need a comfortable learning pace with focus on accuracy and understanding."
+      ],
+      "pointsTitle": "What Students Learn in This Course",
+      "points": [
+        {
+          "title": "Correct Pronunciation",
+          "text": "Students learn the Kalmas with clear pronunciation and consistent correction from the teacher."
+        },
+        {
+          "title": "Step-by-Step Memorization",
+          "text": "Each Kalma is taught gradually so students can remember it with confidence."
+        },
+        {
+          "title": "Meaning and Understanding",
+          "text": "Basic meanings are explained to help students connect with what they memorize."
+        },
+        {
+          "title": "Revision Support",
+          "text": "Regular revision keeps memorization strong and helps students retain what they learn."
+        }
+      ],
+      "ctaTitle": "Start Memorizing the Kalmas Today",
+      "ctaText": "Enroll in guided online lessons and help your child memorize the Kalmas with ease."
+    },
+    {
+      "type": "course",
+      "slug": "basic-duas-memorization",
+      "title": "Basic Dua's Memorization",
+      "subtitle": "Learn and memorize daily Islamic duas for routine life with proper recitation and practical understanding.",
+      "excerpt": "Memorize basic daily duas for eating, sleeping, waking, and everyday Islamic routine.",
+      "image": "/assets/course-reading.svg",
+      "introTitle": "Build Daily Islamic Habits Through Duas",
+      "intro": [
+        "This course helps students memorize the most important daily duas used in everyday life, from morning routines to sleep and meals.",
+        "It is designed to make duas easy to remember, easy to recite, and easy to apply in practical daily life."
+      ],
+      "pointsTitle": "What Students Memorize",
+      "points": [
+        {
+          "title": "Daily Routine Duas",
+          "text": "Students learn essential duas for waking up, sleeping, entering and leaving home, and other daily moments."
+        },
+        {
+          "title": "Correct Reading",
+          "text": "Each dua is taught with careful pronunciation and repetition."
+        },
+        {
+          "title": "Meaning and Usage",
+          "text": "Students understand when each dua is read and why it is important."
+        },
+        {
+          "title": "Practical Revision",
+          "text": "Frequent revision helps children and beginners retain their memorization."
+        }
+      ],
+      "ctaTitle": "Help Your Child Learn Daily Duas",
+      "ctaText": "Start guided memorization lessons for basic Islamic duas and daily practice."
+    },
+    {
+      "type": "course",
+      "slug": "namaz-memorization",
+      "title": "Namaz Memorization",
+      "subtitle": "Memorize the essential recitations of Salah with guided support for children and beginners.",
+      "excerpt": "Learn the important recitations and supplications needed for daily prayers.",
+      "image": "/assets/course-tajweed.svg",
+      "introTitle": "Memorize the Core Parts of Salah",
+      "intro": [
+        "This course helps students memorize the main recitations used in Namaz, including short surahs, tasbeehat, and prayer supplications.",
+        "It supports children and new learners who want to build confidence in prayer through step-by-step memorization."
+      ],
+      "pointsTitle": "What the Namaz Course Covers",
+      "points": [
+        {
+          "title": "Prayer Recitations",
+          "text": "Students memorize the essential Arabic recitations used during Salah."
+        },
+        {
+          "title": "Short Surahs",
+          "text": "Selected short surahs are taught for use in daily prayers."
+        },
+        {
+          "title": "Prayer Confidence",
+          "text": "Students become more confident performing Namaz with the correct words."
+        },
+        {
+          "title": "Revision and Practice",
+          "text": "Regular review ensures the memorized recitations stay strong and accurate."
+        }
+      ],
+      "ctaTitle": "Start Namaz Memorization Online",
+      "ctaText": "Enroll in guided prayer memorization lessons and strengthen daily Salah practice."
+    },
+    {
+      "type": "course",
+      "slug": "islamic-study",
+      "title": "Islamic Study",
+      "subtitle": "A foundational Islamic studies course for children and beginners covering beliefs, manners, and practical knowledge.",
+      "excerpt": "Learn basic Islamic studies including beliefs, manners, worship, and daily Muslim life.",
+      "image": "/assets/course-tafsir.svg",
+      "introTitle": "Build a Strong Islamic Understanding",
+      "intro": [
+        "The Islamic Study course gives students a simple introduction to core Islamic subjects including faith, worship, manners, and basic daily rulings.",
+        "It is suitable for children and families who want organized Islamic learning alongside Quran education."
+      ],
+      "pointsTitle": "Topics Included in Islamic Study",
+      "points": [
+        {
+          "title": "Basic Beliefs",
+          "text": "Students learn essential concepts of faith in a clear and age-appropriate way."
+        },
+        {
+          "title": "Islamic Manners",
+          "text": "The course teaches respectful behavior, honesty, cleanliness, and discipline."
+        },
+        {
+          "title": "Daily Worship Knowledge",
+          "text": "Students understand the basics of Salah, duas, and Islamic routine."
+        },
+        {
+          "title": "Practical Islamic Guidance",
+          "text": "Lessons help learners apply Islamic teachings in family and daily life."
+        }
+      ],
+      "ctaTitle": "Start Islamic Studies Online",
+      "ctaText": "Enroll in guided Islamic studies classes and build stronger faith-based understanding."
+    }
+  ],
+  "articles": [
+    {
+      "type": "article",
+      "slug": "benefits-of-surah-kahf",
+      "title": "Benefits of Surah Kahf",
+      "subtitle": "A practical overview of why Surah Kahf holds a special place in weekly Islamic routine and reflection.",
+      "excerpt": "A practical guide to the virtues of Surah Kahf with Quran and Hadith references and why reciting it weekly matters.",
+      "image": "/source/images/Benefits-of-Surah-Kahf-Quran-Hadith-References-300x200.webp",
+      "introTitle": "Why Surah Kahf Matters Each Week",
+      "intro": [
+        "Surah Kahf is widely recited on Fridays and is valued for the spiritual reminders, lessons, and protection associated with it in Islamic tradition.",
+        "Its stories help Muslims reflect on faith, patience, trials, leadership, and the temporary nature of worldly success."
+      ],
+      "pointsTitle": "Key Lessons and Benefits",
+      "points": [
+        {
+          "title": "Weekly Reminder of Faith",
+          "text": "Reciting Surah Kahf each week helps renew spiritual focus and connect the heart to Quranic guidance."
+        },
+        {
+          "title": "Protection from Trials",
+          "text": "The surah is often associated with reflection and preparation against major spiritual tests."
+        },
+        {
+          "title": "Powerful Quranic Stories",
+          "text": "Its stories teach patience, humility, trust in Allah, and wisdom in difficult situations."
+        },
+        {
+          "title": "Consistent Quran Habit",
+          "text": "A regular Friday recitation habit strengthens discipline and attachment to the Quran."
+        }
+      ],
+      "ctaTitle": "Learn the Quran with Meaningful Guidance",
+      "ctaText": "Explore more Islamic learning with structured Quran classes for children and adults."
+    },
+    {
+      "type": "article",
+      "slug": "sunnah-foods-for-sehri-and-iftar",
+      "title": "Sunnah Foods for Sehri and Iftar",
+      "subtitle": "Learn about prophetic food choices that support a healthier and more spiritually mindful Ramadan routine.",
+      "excerpt": "Learn the benefits of prophetic foods and how they support a healthy and spiritually balanced Ramadan routine.",
+      "image": "/source/images/Sunnah-Foods-for-Sehri-and-Iftar-in-Ramadan-300x200.webp",
+      "introTitle": "Healthy and Meaningful Ramadan Eating Habits",
+      "intro": [
+        "Sunnah foods offer both practical and spiritual value during fasting, especially at Sehri and Iftar when energy, balance, and simplicity matter most.",
+        "This topic helps students and families understand how prophetic food habits can shape a healthier and more intentional Ramadan routine."
+      ],
+      "pointsTitle": "Practical Benefits of Sunnah Foods",
+      "points": [
+        {
+          "title": "Balanced Energy for Fasting",
+          "text": "Simple and nourishing foods can help the body stay steadier during long fasting hours."
+        },
+        {
+          "title": "Connection to Sunnah",
+          "text": "Following prophetic food habits adds spiritual intention to daily eating routines."
+        },
+        {
+          "title": "Healthier Meal Choices",
+          "text": "Students and parents are encouraged to choose moderation, quality, and simplicity over excess."
+        },
+        {
+          "title": "Family Education Value",
+          "text": "This topic helps children understand the wisdom of Islamic habits in everyday life."
+        }
+      ],
+      "ctaTitle": "Build Islamic Habits Through Learning",
+      "ctaText": "Join guided online Quran and Islamic education classes for practical, faith-based growth."
+    },
+    {
+      "type": "article",
+      "slug": "difference-between-zakat-sadaqah-and-fitrana",
+      "title": "Difference Between Zakat, Sadaqah and Fitrana",
+      "subtitle": "A clear explanation of the main Islamic charity categories and when each one applies.",
+      "excerpt": "A simplified explanation of key Islamic charity terms to help students and parents understand them clearly.",
+      "image": "/source/images/Difference-Between-Zakat-Sadaqah-and-Fitrana-E2-80-93-Complete-Islamic-Guide-300x200.webp",
+      "introTitle": "Understand Core Islamic Charity Concepts",
+      "intro": [
+        "Many students and parents hear the terms Zakat, Sadaqah, and Fitrana together, but each one has a different purpose and ruling.",
+        "This topic explains the differences simply so families can better understand Islamic giving and teach it correctly to children."
+      ],
+      "pointsTitle": "How These Forms of Charity Differ",
+      "points": [
+        {
+          "title": "Zakat",
+          "text": "Zakat is an obligatory annual charity due on qualifying wealth once the required threshold is met."
+        },
+        {
+          "title": "Sadaqah",
+          "text": "Sadaqah is voluntary charity and can be given at any time for reward and support of others."
+        },
+        {
+          "title": "Fitrana",
+          "text": "Fitrana is specifically linked to Ramadan and Eid, and it is given so the needy can benefit before Eid prayer."
+        },
+        {
+          "title": "Practical Family Understanding",
+          "text": "Learning these distinctions helps children and adults apply Islamic charity more correctly and meaningfully."
+        }
+      ],
+      "ctaTitle": "Learn Islamic Essentials with Clarity",
+      "ctaText": "Study Quran and Islamic education online with structured lessons for families and learners."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <rect width="800" height="520" fill="#0d6c34"/>
+  <rect x="110" y="90" width="580" height="340" rx="30" fill="#fff"/>
+  <circle cx="270" cy="225" r="70" fill="#e8f3ec"/>
+  <path d="M220 320c18-46 34-70 50-70s32 24 50 70" fill="#0d6c34"/>
+  <path d="M232 210c10-32 30-48 58-48 29 0 49 16 59 48-21-12-33-16-59-16s-38 4-58 16Z" fill="#0d6c34"/>
+  <text x="500" y="235" font-size="34" text-anchor="middle" fill="#0d6c34" font-family="Arial, sans-serif" font-weight="700">Female Quran Teacher</text>
+  <text x="500" y="282" font-size="22" text-anchor="middle" fill="#547063" font-family="Arial, sans-serif">Comfortable learning for sisters and children</text>
+</svg>
