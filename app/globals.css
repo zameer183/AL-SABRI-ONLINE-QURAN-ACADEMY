@@ -180,9 +180,43 @@ textarea:focus-visible {
   gap: 28px;
 }
 
+.custom-navbar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
 .custom-navbar__logo img {
-  width: 84px;
+  width: 74px;
   height: auto;
+  flex: 0 0 auto;
+  border-radius: 999px;
+}
+
+.custom-navbar__brand-text {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.custom-navbar__brand-eyebrow {
+  color: #057534;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.custom-navbar__brand-title {
+  color: #1f3d2b;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
 .wp-image-2613 {
@@ -230,13 +264,21 @@ textarea:focus-visible {
 }
 
 .site-footer__logo {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 132px;
+  height: 132px;
+  overflow: hidden;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .site-footer__logo img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
 .site-footer__brand p,
@@ -3170,8 +3212,22 @@ textarea:focus-visible {
     justify-content: flex-end;
   }
 
+  .custom-navbar__logo {
+    gap: 10px;
+  }
+
   .custom-navbar__logo img {
-    width: 62px;
+    width: 58px;
+  }
+
+  .custom-navbar__brand-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+  }
+
+  .custom-navbar__brand-title {
+    font-size: 13px;
+    line-height: 1.12;
   }
 
   .custom-hero {
@@ -3543,6 +3599,7 @@ textarea:focus-visible {
 
   .site-footer__logo {
     width: 110px;
+    height: 110px;
   }
 
   .about-page__hero {
@@ -4080,8 +4137,26 @@ textarea:focus-visible {
     grid-template-columns: auto 1fr auto;
   }
 
+  .custom-navbar__logo {
+    gap: 10px;
+  }
+
   .custom-navbar__logo img {
-    width: 70px;
+    width: 56px;
+  }
+
+  .custom-navbar__brand-text {
+    max-width: min(46vw, 180px);
+  }
+
+  .custom-navbar__brand-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.14em;
+  }
+
+  .custom-navbar__brand-title {
+    font-size: 12px;
+    line-height: 1.15;
   }
 
   .site-footer__inner {

@@ -81,6 +81,10 @@ export function Header() {
               height={321}
               priority
             />
+            <span className="custom-navbar__brand-text">
+              <span className="custom-navbar__brand-eyebrow">Online Quran Academy</span>
+              <span className="custom-navbar__brand-title">Al Sabri Online Quran Academy</span>
+            </span>
           </Link>
 
           <nav className="custom-navbar__menu" aria-label="Primary menu">

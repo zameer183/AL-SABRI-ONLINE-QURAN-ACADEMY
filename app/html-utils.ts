@@ -4,6 +4,33 @@ type TransformOptions = {
   stripFooter?: boolean;
 };
 
+const HOME_COURSE_IMAGE_MAP = [
+  {
+    id: "d380034",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(7).jpeg",
+  },
+  {
+    id: "2521c9c",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(4).jpeg",
+  },
+  {
+    id: "2c2dd01",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(9).jpeg",
+  },
+  {
+    id: "a04403c",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(8).jpeg",
+  },
+  {
+    id: "2d4d143",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(5).jpeg",
+  },
+  {
+    id: "8721b18",
+    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(10).jpeg",
+  },
+] as const;
+
 const NAVBAR_SOCIALS = `<ul class="elementor-icon-list-items elementor-inline-items"> <li class="elementor-icon-list-item elementor-inline-item"> <a href="https://www.facebook.com/share/1GzhwXAxWC/" target="_blank" rel="noopener noreferrer"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fab fa-facebook-f"></i> </span> <span class="elementor-icon-list-text"></span> </a> </li> <li class="elementor-icon-list-item elementor-inline-item"> <a href="https://www.instagram.com/alsabrionlinequranacadmey?igsh=MWUxZ2EwaTk3aGV2Mw==" target="_blank" rel="noopener noreferrer"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="fab fa-instagram"></i> </span> <span class="elementor-icon-list-text"></span> </a> </li> <li class="elementor-icon-list-item elementor-inline-item"> <a href="https://www.tiktok.com/@asolearnquran?_r=1&_t=ZN-94XxIDhOsrO" target="_blank" rel="noopener noreferrer"> <span class="elementor-icon-list-icon"> <svg class="custom-social-svg" viewBox="0 0 24 24" aria-hidden="true"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.11v13.09a2.89 2.89 0 0 1-5.78 0 2.89 2.89 0 0 1 2.89-2.89c.29 0 .57.04.84.13V9.17a6 6 0 0 0-.84-.06A6 6 0 1 0 15.82 15V8.33a7.9 7.9 0 0 0 4.63 1.49V6.69a4.84 4.84 0 0 1-.86 0Z"></path></svg> </span> <span class="elementor-icon-list-text"></span> </a> </li> </ul>`;
 
 const FOOTER_CONTACTS = `<ul class="elementor-icon-list-items"> <li class="elementor-icon-list-item"> <a href="mailto:alsabrionlinequranacademy@gmail.com"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="icon icon-email"></i> </span> <span class="elementor-icon-list-text">alsabrionlinequranacademy@gmail.com</span> </a> </li> <li class="elementor-icon-list-item"> <a href="https://wa.me/923413839634" target="_blank" rel="noopener noreferrer"> <span class="elementor-icon-list-icon"> <i aria-hidden="true" class="icon icon-phone-call2"></i> </span> <span class="elementor-icon-list-text">+923413839634</span> </a> </li> </ul>`;
@@ -142,6 +169,16 @@ export function transformSiteHtml(html: string, options: TransformOptions = {}) 
     `${HOME_TESTIMONIALS}<div class="elementor-element elementor-element-0d29f6e`,
   );
 
+  for (const item of HOME_COURSE_IMAGE_MAP) {
+    nextHtml = nextHtml.replace(
+      new RegExp(
+        `<div class="elementor-element elementor-element-${item.id} e-con-full e-flex e-con e-child" data-id="${item.id}" data-element_type="container" data-e-type="container" data-settings="\\{&quot;background_background&quot;:&quot;classic&quot;\\}">\\s*<\\/div>`,
+        "g",
+      ),
+      `<div class="elementor-element elementor-element-${item.id} e-con-full e-flex e-con e-child" data-id="${item.id}" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image:url('${item.image}');background-size:cover;background-position:center;background-repeat:no-repeat;"></div>`,
+    );
+  }
+
   return normalizeInternalLinks(nextHtml)
     .replace(
       /https:\/\/alsaifquranacademy\.com\/wp-content\/uploads\/(?:\d{4}\/\d{2}\/)?([^"/?#]+)"/gi,
@@ -165,6 +202,7 @@ export function transformSiteHtml(html: string, options: TransformOptions = {}) 
     .replaceAll("./images/Online-Quran-Academy.webp", "/source/images/quran-reading-r621het3en3sbcs0re6mnfohzeukh852tw4lxh47s8.webp")
     .replaceAll("./images/Quran-academy-in-New-York.webp", "/source/images/Tajweel-Ul-Quran_800x-1-r621eqxk1jgjf4nab8qol3vhe3z4o3kggpl2z92dew.webp")
     .replaceAll("./images/Al-Saif-Quran-Academy.webp", "/source/images/pexels-thirdman-8489077-scaled-r31966rn6083s6l44e2sykj3h8xe05mxvxczpea0yw.webp")
+    .replace(/Female Quran Teacher/gi, "Male Female Quran Teacher")
     .replaceAll("https://web.whatsapp.com/send?phone=923336650021", "https://wa.me/923413839634")
     .replaceAll("phone=923336650021", "phone=923413839634")
     .replaceAll("923336650021", "923413839634");
