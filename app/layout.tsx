@@ -18,10 +18,19 @@ export default function RootLayout({
     <html lang="en-US">
       <head>
         {pageData.head.links.map((href, index) => (
-          <link key={`${href}-${index}`} rel="stylesheet" href={href} />
+          <link
+            key={`${href}-${index}`}
+            rel="stylesheet"
+            href={href}
+            data-exported-site-style="true"
+          />
         ))}
         {pageData.head.inlineStyles.map((css, index) => (
-          <style key={index} dangerouslySetInnerHTML={{ __html: css }} />
+          <style
+            key={index}
+            data-exported-site-inline-style="true"
+            dangerouslySetInnerHTML={{ __html: css }}
+          />
         ))}
       </head>
       <body
