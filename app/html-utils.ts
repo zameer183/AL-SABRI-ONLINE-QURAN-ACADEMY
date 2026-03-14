@@ -7,27 +7,27 @@ type TransformOptions = {
 const HOME_COURSE_IMAGE_MAP = [
   {
     id: "d380034",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(7).jpeg",
+    image: "/new%20images/noorani-qaida.png",
   },
   {
     id: "2521c9c",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(4).jpeg",
+    image: "/new%20images/Tafseer.jpeg",
   },
   {
     id: "2c2dd01",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(9).jpeg",
+    image: "/new%20images/quran-qirat.png",
   },
   {
     id: "a04403c",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(8).jpeg",
+    image: "/new%20images/tajweed-course.png",
   },
   {
     id: "2d4d143",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(5).jpeg",
+    image: "/new%20images/Nazarh.jpeg",
   },
   {
     id: "8721b18",
-    image: "/new%20images/WhatsApp%20Image%202026-03-13%20at%205.27.18%20AM%20(10).jpeg",
+    image: "/new%20images/female-quran-teacher.png",
   },
 ] as const;
 
