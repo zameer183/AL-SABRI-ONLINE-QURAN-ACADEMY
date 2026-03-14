@@ -31,7 +31,7 @@ const courses = [
   "Quran Memorization",
   "Tafsir e Quran",
   "Children's Quran Classes",
-  "Female Quran Teacher",
+  "Male Female Quran Teacher",
   "Custom One-to-One Classes",
 ] as const;
 

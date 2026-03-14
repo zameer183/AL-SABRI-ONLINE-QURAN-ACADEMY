@@ -179,15 +179,15 @@ const guidedPages: Record<string, GuidedPageConfig> = {
     image: "/assets/course-reading.svg",
   },
   "female-quran-teacher": {
-    title: "Female Quran Teacher",
+    title: "Male Female Quran Teacher",
     subtitle:
-      "Comfortable and supportive Quran learning with experienced female tutors for sisters and children.",
-    introTitle: "Learn with Dedicated Female Quran Teachers",
+      "Comfortable and supportive Quran learning with experienced male and female tutors for children, sisters, and families.",
+    introTitle: "Learn with Dedicated Male and Female Quran Teachers",
     intro: [
-      "This option is ideal for sisters and families who prefer female Quran tutors for recitation, Tajweed, Noorani Qaida, and children's learning support.",
-      "Classes are delivered in a structured, respectful, and comfortable environment that supports regular progress and clear communication.",
+      "This option is ideal for families who want the flexibility to learn with male or female Quran tutors for recitation, Tajweed, Noorani Qaida, and children's learning support.",
+      "Classes are delivered in a structured, respectful, and comfortable environment that supports regular progress and clear communication for every student.",
     ],
-    pointsTitle: "Why Students Choose Female Quran Teachers",
+    pointsTitle: "Why Students Choose Male and Female Quran Teachers",
     points: [
       {
         title: "Comfortable Learning Environment",
@@ -206,8 +206,8 @@ const guidedPages: Record<string, GuidedPageConfig> = {
         text: "Parents can arrange reliable one-to-one schedules for daughters and younger learners.",
       },
     ],
-    ctaTitle: "Book Classes with a Female Quran Tutor",
-    ctaText: "Contact us to arrange one-to-one online lessons with experienced female teachers.",
+    ctaTitle: "Book Classes with Male or Female Quran Teachers",
+    ctaText: "Contact us to arrange one-to-one online lessons with experienced male or female teachers.",
     image: "/assets/course-female-teacher.svg",
   },
   "online-quran-memorization-program": {

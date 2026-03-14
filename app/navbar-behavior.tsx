@@ -95,9 +95,52 @@ export function NavbarBehavior() {
         });
     };
 
+    const bindTrialClassForm = () => {
+      document
+        .querySelectorAll<HTMLFormElement>(".elementor-element-98f3e87 form.elementor-form")
+        .forEach((form) => {
+          if (form.dataset.boundWhatsapp === "true") {
+            return;
+          }
+
+          form.dataset.boundWhatsapp = "true";
+
+          const emailInput = form.querySelector<HTMLInputElement>("#form-field-email");
+          if (emailInput) {
+            emailInput.required = false;
+            emailInput.removeAttribute("required");
+            emailInput.removeAttribute("aria-required");
+          }
+
+          form.addEventListener("submit", (event) => {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+            const name = String(formData.get("form_fields[name]") ?? "").trim();
+            const phone = String(formData.get("form_fields[field_7b4f72c]") ?? "").trim();
+            const email = String(formData.get("form_fields[email]") ?? "").trim();
+            const course = String(formData.get("form_fields[field_5a0cd19]") ?? "").trim();
+            const message = String(formData.get("form_fields[message]") ?? "").trim();
+
+            const lines = [
+              "Assalam o Alaikum, I want to schedule a free trial class.",
+              name ? `Name: ${name}` : "",
+              phone ? `Phone: ${phone}` : "",
+              email ? `Email: ${email}` : "",
+              course ? `Course: ${course}` : "",
+              message ? `Message: ${message}` : "",
+            ].filter(Boolean);
+
+            const whatsappUrl = `https://wa.me/923413839634?text=${encodeURIComponent(lines.join("\n"))}`;
+            window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+          });
+        });
+    };
+
     syncStickyHeader();
     bindMenus();
     normalizeLinks();
+    bindTrialClassForm();
 
     window.addEventListener("resize", syncStickyHeader);
     return () => window.removeEventListener("resize", syncStickyHeader);
